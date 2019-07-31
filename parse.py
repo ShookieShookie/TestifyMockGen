@@ -2,8 +2,7 @@ import re
 import sys
 import os
 
-# filename = input('enter filename: ')
-filename = 'input.txt'
+filename = input('enter filename: ')
 
 f = open(filename.strip(),'r')
 

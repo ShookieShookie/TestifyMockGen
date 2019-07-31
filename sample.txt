@@ -1,0 +1,12 @@
+trash
+lines
+type Player interface {
+	ApplyDamage(tom int,bob int)
+	GetHealth() int
+	SetMana(int)
+	PlayCard(index int) (*int, error)
+	IsDead() bool
+	Draw() error
+	ID() string
+	PrintStats()
+}
